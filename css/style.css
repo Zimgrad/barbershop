@@ -13,6 +13,24 @@ body {
     color: black ;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
 .list {
     list-style: none;
 }
@@ -21,10 +39,33 @@ body {
     text-decoration: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    outline: 2px solid red;
+}
 /* ---------------------HEADER-------------------------- */
 
 .header {
     background-color: gray;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-link {
 font-weight: 600;
@@ -109,6 +150,11 @@ color: var(--header-color);
 
 /* ---------------------ABOUT-------------------------- */
 
+.about {
+    padding-top: 139px;
+    padding-bottom: 121px;
+}
+
 .about-pre-title {
     font-weight: 600;
     font-size: 11px;
@@ -116,6 +162,7 @@ color: var(--header-color);
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--second-title-color);
+    margin-bottom: 20px;
 }
 
 .about-title {
@@ -126,6 +173,7 @@ color: var(--header-color);
     line-height: 1.66;
     letter-spacing: 0.05em;
     color: var(--second-title-color);
+    margin-bottom: 20px;
 }
 
 .about-after-title {
@@ -135,6 +183,7 @@ color: var(--header-color);
     line-height: 1.67;
     letter-spacing: 0.02em;
     color: #555555;
+    margin-bottom: 20px;
 }
 
 .about-text {
@@ -143,6 +192,7 @@ color: var(--header-color);
     line-height: 1.86;
     letter-spacing: 0.02em;
     color: #555555;
+    margin-bottom: 40px;
 }
 
 .about-btn {
@@ -160,6 +210,8 @@ color: var(--header-color);
 
 .prices {
     background-color: gray;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 .prices-pre-title {
@@ -169,6 +221,7 @@ color: var(--header-color);
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: rgba(157, 164, 189, 0.6);
+    margin-bottom: 20px;
 }
 
 .prices-title {
@@ -179,6 +232,7 @@ color: var(--header-color);
     line-height: 1.17;
     letter-spacing: 0.05em;
     color: var(--first-title-color);
+    margin-bottom: 44px;
 }
 
 .prices-item-text {
@@ -201,6 +255,11 @@ color: var(--header-color);
 
 
 /* ---------------------REASONS-------------------------- */
+
+.reasons {
+    margin-top: 143px;
+    margin-bottom: 108px;
+}
 
 .reasons-digit {
     font-family: 'Open Sans';
@@ -228,6 +287,7 @@ color: var(--header-color);
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #303030;
+    margin-bottom: 20px;
 }
 
 .reasons-title {
@@ -238,6 +298,7 @@ color: var(--header-color);
     line-height: 1.17;
     letter-spacing: 0.05em;
     color: var(--second-title-color);
+    margin-bottom: 44px;
 }
 
 .reasons-after-title {
@@ -251,6 +312,11 @@ color: var(--header-color);
 
 /* ---------------------MASTERS-------------------------- */
 
+.masters {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
 .masters_pre_title {
     font-weight: 600;
     font-size: 11px;
@@ -258,6 +324,7 @@ color: var(--header-color);
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #303030;
+    margin-bottom: 20px;
 }
 
 .masters-title {
@@ -288,3 +355,9 @@ color: var(--header-color);
     color: var(--accent-color);
 }
 
+/* ---------------------gallery-------------------------- */
+
+.gallery {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
